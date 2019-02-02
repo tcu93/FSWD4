@@ -10,7 +10,7 @@ Create an application to demonstrate CRUD functionality and OAUTH support for Go
     * Install Flask: `pip install Flask`
     * Install Sqlalchemy: `pip install SQLAlchemy`
 
-2. Clone this repository to a folder containing your Vagrant file: `git clone https://github.com/jazztbone2b/udacity_catalog_fullstack.git`
+2. Clone this repository to a folder containing your Vagrant file: `git clone https://github.com/tcu93/FSWD4.git`
 
 3. Open a terminal window and navigate to the folder containing this project
 
