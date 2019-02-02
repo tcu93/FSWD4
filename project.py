@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from flask import Flask, render_template, request, redirect
 from flask import jsonify, url_for, flash
 
