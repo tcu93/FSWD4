@@ -35,5 +35,5 @@ Create an application to demonstrate CRUD functionality and OAUTH support for Go
 ## JSON API Endpoints
 
 * http://localhost:5000/category/JSON
-* http://localhost:5000/category/<int:category_id>/item/JSON
-* http://localhost:5000/category/<int:category_id>/item/<int:item_id>/JSON
+* http://localhost:5000/category/<category_id>/item/JSON
+* http://localhost:5000/category/<category_id>/item/<item_id>/JSON
