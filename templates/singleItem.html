@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+   </head>
+   <body>
+      <div class="header">
+         <h1>Item Catalog</h1>
+      </div>
+      <header class="navbar">
+         <h1><a href="/category">Home</a></h1>
+         {% if not session.email %}
+         <h6><a class="right" href="/login"> Login </a> </h6>
+         {% else %}
+         <h6><a class="right" href="/gdisconnect">Logout</a></h6>
+         {% endif %}
+      </header>
+      <div class = "main">
+         <h1>{{ item.name }}</h1>
+         <p>{{item.description}}</p>
+      </div>
+   </body>
+</html>
